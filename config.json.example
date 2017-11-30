@@ -1,0 +1,16 @@
+{
+  "probes": [
+    {
+      "name": "Local MySQL Server",
+      "type": "MySQL",
+      "ip": "127.0.0.1"
+    },
+    {
+      "name": "Server Ping Test",
+      "type": "Ping",
+      "ip": "127.0.0.1",
+      "frequency": 60,
+      "retry": 3
+    }
+  ]
+}
